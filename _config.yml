@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Kaisar Kushibar"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Personal page" # site tagline that appears below site title in masthead
+name                     : "Kaisar Kushibar"
+description              : "Scientific profile and posts"
+url                      : "https://pianoza.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -78,7 +78,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : KaisarKushibar
 facebook:
   username               :
   app_id                 :
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Kaisarr Kushibar"
+  avatar           : /assets/images/profile_pic_small.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "My short bio."
+  location         : "Barcelona, Spain"
+  email            : "kaisar.kushibar@ub.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
