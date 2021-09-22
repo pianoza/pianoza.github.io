@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kaisarr Kushibar"
+  name             : "Kaisar Kushibar"
   avatar           : /assets/images/profile_pic_small.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My short bio."
   location         : "Barcelona, Spain"
