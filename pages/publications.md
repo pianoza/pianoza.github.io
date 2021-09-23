@@ -1,16 +1,13 @@
 ---
 layout: single
-title: Brain structure segmentation
-
+title: "Publications"
+excerpt: "Publications"
+author_profile: true
 ---
-This post is going to be about this paper: [[1]](#1).
 
+## As the first author
 
-
-
-## References
 <div style="float: left; width: 80%">
-<a id="1">[1]</a> 
 Kushibar, Kaisar, et al. "Automated sub-cortical brain structure segmentation combining spatial and deep convolutional features." Medical image analysis 48 (2018): 177-186.
 </div>
 <div style="float: right; width: 20%">

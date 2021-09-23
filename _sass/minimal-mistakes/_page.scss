@@ -162,6 +162,18 @@ body {
   }
 }
 
+@keyframes filter-animation {
+  0% {
+    filter: sepia(0) saturate(2);
+  }
+  50% {
+    filter: sepia(1) saturate(8);
+  }
+  100% {
+    filter: sepia(0) saturate(2);
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
@@ -181,6 +193,7 @@ body {
     background-position: center;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
+    // animation: filter-animation 5s infinite;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
 
