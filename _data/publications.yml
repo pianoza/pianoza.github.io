@@ -1,0 +1,74 @@
+first_author:
+
+  - title: Transductive transfer learning for domain adaptation in brain magnetic resonance image segmentation
+    description: Proposed histogram loss to minimise the differences in the activation maps of a 2.5D CNN. Images from target domain are used in training but without ground truth masks. Results showed improvements for two different brain MRI segmentation tasks.
+    blog_post: false
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8116893/
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=21100199812" alt="SCImago Journal &amp; Country Rank" />
+
+  - title: Supervised domain adaptation for automatic sub-cortical brain structure segmentation with minimal user interaction.
+    description: Applied transfer learning strategy as a domain adaptation technique and compared its performance to other methods for domain generalisation in MRI image segmentation.
+    blog_post: false
+    url: https://www.nature.com/articles/s41598-019-43299-z
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=21100200805" alt="SCImago Journal &amp; Country Rank" />
+
+  - title: Automated sub-cortical brain structure segmentation combining spatial and deep convolutional features.
+    description: Proposed a novel 2.5D CNN that utilises spatial priors and selective sampling for brain structure segmentation. State-of-the-art results were achieved on publicly available datasets.
+    blog_post: /brain-structure-segmentation
+    url: https://www.sciencedirect.com/science/article/pii/S1361841518303839
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=17271" alt="SCImago Journal &amp; Country Rank" />
+  
+co_author:
+  - title: "Data preparation for artificial intelligence in medical imaging: A comprehensive guide to open-access platforms and tools"
+    description: A comprehensive guide for data preparation process for the beginners in AI in Medical Imaging. Here we provided a list of tools and platforms for data annotation, anonymisation, and curation. Also a list of publicly available datasets.
+    blog_post: false
+    url: https://www.sciencedirect.com/science/article/pii/S1120179721000958
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=17037" alt="SCImago Journal &amp; Country Rank" />
+
+  - title: Generating longitudinal atrophy evaluation datasets on brain Magnetic Resonance Images using Convolutional Neural Networks and segmentation priors
+    description: Generating MRI images with controlled atrophy by deforming the segmentation probability maps. These synthetic images can be used in many applications such as atrophy quantification, cognitive disorder prediction using longitudinal images series.
+    blog_post: false
+    url: https://link.springer.com/article/10.1007/s12021-020-09499-z
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=23987" alt="SCImago Journal &amp; Country Rank" />
+
+  - title: Improving the detection of autism spectrum disorder by combining structural and functional MRI information
+    description: Proposed to combine structural and functional MRI features to classify autism spectrum disorder. Structural features were extracted from FreeSurfer brain image parcellation masks on T1-w  MRI images. And the functional features were extracted using by constructing connectivity matrices and further dimensionality reduction using the Fisher score. The classification performance achieved state-of-the-art on ABIDE datasets.
+    blog_post: false
+    url: https://www.sciencedirect.com/science/article/pii/S221315822030019X
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=21100222534" alt="SCImago Journal &amp; Country Rank" />
+
+  - title: Quantitative analysis of patch-based Fully Convolutional Neural Networks for tissue segmentation on brain Magnetic Resonance Imaging
+    description: Principaled analysis of patch-based techniques for brain tissue segmentation using F-CNNs. Different architectures, patch-extraction techniques were extensively analysed and systematically compared.
+    blog_post: false
+    url: https://ieeexplore.ieee.org/abstract/document/8754679
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=21100374601" alt="SCImago Journal &amp; Country Rank" />
+
+  - title: "Deep convolutional neural networks for brain image analysis on magnetic resonance imaging: a review"
+    description: A review of CNN methods for brain lesion, tissue, and structure segmentation. Evolution of different CNN architectures and state-of-the-art strategies were discussed. Future research directions for the research in brain imaging were hinted.
+    blog_post: false
+    url: https://www.sciencedirect.com/science/article/pii/S0933365716305206
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=24140" alt="SCImago Journal &amp; Country Rank" />
+
+pre_prints:
+  - title: "A review of Generative Adversarial Networks in cancer imaging: new applications, new solutions"
+    description: Total of 163 papers that apply adversarial training techniques were analysed in the context of cancer imaging. Methodologies, advantages, and limitations were systematically discussed. Possible perspectives for GAN solutions in cancer imaging were hinted.
+    blog_post: false
+    url: https://arxiv.org/abs/2107.09543
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" /> 
+
+  - title: "Federated learning for multi-center imaging diagnostics: a study in cardiovascular disease"
+    description: The first study on the applicatio of federated learning in cardiovascular disease classification. Experiments with different model aggregation and validation techniques were performed.
+    blog_post: false
+    url: https://arxiv.org/abs/2107.03901
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />  
+
+  - title: "A hybrid SLAM and object recognition system for Pepper robot"
+    description: First application of Simultaneous Localisation and Mapping (SLAM) with Pepper humanoid robot. Functionalities such as map building, map saving and reusing, recognising objects and locating them on the map were implemented and tested in real-world.
+    blog_post: false
+    url: https://arxiv.org/abs/1903.00675
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />   
+  - title: Survival prediction using ensemble tumor segmentation and transfer learning
+    description: Participation in the BraTS challenge for tumour segmentation and survival prediction. A cascaded pipeline was presented to segment the tumor and its subregions, which subsequently were used for survival prediction along with other clinical features.
+    blog_post: false
+    url: https://arxiv.org/abs/1810.04274
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />
