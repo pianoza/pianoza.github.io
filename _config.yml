@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kaisar Kushibar"
+title                    : "Academic Profile"
 title_separator          : "-"
-subtitle                 : "Academic profile" # site tagline that appears below site title in masthead
+subtitle                 : "Kaisar Kushibar" # site tagline that appears below site title in masthead
 name                     : "Kaisar Kushibar"
 description              : "Academic profile and posts"
 url                      : "https://pianoza.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : pianoza/pianoza.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/logo_kk.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kaisar Kushibar"
+  name             : "Kaisar<br>Kushibar, PhD"
   avatar           : /assets/images/profile_pic_small.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Working on AI in MIA"
   location         : "Barcelona, Spain"
@@ -284,3 +284,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false

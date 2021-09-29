@@ -1,0 +1,48 @@
+ongoing:
+  - title: EuCanImage
+    excerpt: Horizon 2020 funded European project for building a cancer imaging platform.
+    url: https://eucanimage.eu
+    image_path: /assets/images/logo_eucanimage.jpg
+    image_caption: 
+    alt: EuCanImage Logo
+    btn_label: Read more
+    btn_class: btn--info
+
+archive:
+  - title: EVOLUTION
+    excerpt: Predictive models for multiple sclerosis using brain magnetic resonance imaging biomarkers.
+    url: https://vicorob.udg.edu/portfolio_page/evolution/
+    image_path: /assets/images/logo_evolution.jpg
+    image_caption: 
+    alt: Evolution Logo
+    btn_label: Read more
+    btn_class: btn--info
+
+  - title: wASSABI 
+    excerpt: Automatic brain Structures Segmentation As potential imaging BIomarkers.
+    url: https://vicorob.udg.edu/portfolio_page/wassabi/
+    image_path: /assets/images/logo_wassabi.jpg
+    image_caption: 
+    alt: wASSABI Logo
+    btn_label: Read more
+    btn_class: btn--info
+
+  - title: biomarkEM.cat
+    excerpt: Development of novel techniques for the improvement in the medical image processing and analysis field.
+    url: https://vicorob.udg.edu/portfolio_page/biomarkem/
+    image_path: /assets/images/logo_biomarkem.jpg
+    image_caption: 
+    alt: BiomarkEM Logo
+    btn_label: Read more
+    btn_class: btn--info
+
+  - title: NICOLE
+    excerpt: New technologies applied to clinical practice for obtaining biomarkers of atrophy and lesions in magnetic resonance images of patients with multiple sclerosis.
+    url: https://vicorob.udg.edu/portfolio_page/nicole/
+    image_path: /assets/images/logo_nicole.jpg
+    image_caption: 
+    alt: NICOLE Logo
+    btn_label: Read more
+    btn_class: btn--info
+
+  

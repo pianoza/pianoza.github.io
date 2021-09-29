@@ -14,10 +14,17 @@ first_author:
 
   - title: Automated sub-cortical brain structure segmentation combining spatial and deep convolutional features.
     description: Proposed a novel 2.5D CNN that utilises spatial priors and selective sampling for brain structure segmentation. State-of-the-art results were achieved on publicly available datasets.
-    blog_post: /brain-structure-segmentation
+    blog_post: /blog/brain-structure-segmentation
     url: https://www.sciencedirect.com/science/article/pii/S1361841518303839
     journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=17271" alt="SCImago Journal &amp; Country Rank" />
-  
+
+book_chapters:
+  - title: Deep Learning in Biology and Medicine
+    description: Contributed to a chapter titled "Deep Learning for Medical Imaging". The chapter discusses the general deep learning strategies that have been considered in medical imaging; widespread preprocessing, processing, and postprocessing schemes; their targets and applications; and discuss key challenges to address in the future for easing their applicability in clinical practice.
+    blog_post: false
+    url: https://books.google.co.uk/books/about/Deep_Learning_in_Biology_and_Medicine.html?id=C76KzgEACAAJ&source=kp_book_description&redir_esc=y
+    journal: <img border="0" width=100 src="/assets/images/book_no_cover_thumb.gif" alt="Generic Book Cover" /> 
+ 
 co_author:
   - title: "Data preparation for artificial intelligence in medical imaging: A comprehensive guide to open-access platforms and tools"
     description: A comprehensive guide for data preparation process for the beginners in AI in Medical Imaging. Here we provided a list of tools and platforms for data annotation, anonymisation, and curation. Also a list of publicly available datasets.
@@ -63,7 +70,7 @@ pre_prints:
     journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />  
 
   - title: "A hybrid SLAM and object recognition system for Pepper robot"
-    description: First application of Simultaneous Localisation and Mapping (SLAM) with Pepper humanoid robot. Functionalities such as map building, map saving and reusing, recognising objects and locating them on the map were implemented and tested in real-world.
+    description: First application of Simultaneous Localisation and Mapping (SLAM) with Pepper humanoid robot. Functionalities such as map building, map saving and reusing, recognising objects and locating them on the map were implemented and tested in real-world. (Equal contribution)
     blog_post: false
     url: https://arxiv.org/abs/1903.00675
     journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />   

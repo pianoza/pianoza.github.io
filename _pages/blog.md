@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: "Blog posts"
-excerpt: "Description"
-author_profile: true
+permalink: /blog/
 ---
 All the posts are here

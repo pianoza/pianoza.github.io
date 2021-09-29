@@ -2,17 +2,15 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Research Projects"
-    url: /pages/research-projects/
-  - title: "Blog"
-    url: /pages/blog/
-  - title: "Publications"
-    url: /pages/publications/
-  - title: "CV"
-    url: /pages/cv/
   - title: "About"
-    url: /pages/about/
-  - title: "Contact"
-    url: /pages/contact/
+    url: /about/
+  - title: "Research Projects"
+    url: /research-projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
   # - title: "Sitemap"
   #   url: /sitemap/

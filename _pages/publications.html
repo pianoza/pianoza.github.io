@@ -1,9 +1,32 @@
 ---
-layout: single
 title: "Publications"
-excerpt: "Publications"
-author_profile: true
+permalink: /publications/
 ---
+
+<div style="font-size: medium;">
+<h2>Book Chapters</h2>
+{% for publication in site.data.publications.book_chapters %}
+<div style="margin-bottom: 1.3em; display:block; width: 100%; overflow: auto; clear: both; text-align: justify;">
+    <a href="{{ publication.url }}">{{ publication.title }}</a>
+  <div style="clear: both; display: block; overflow: auto;">
+    <div style="float: left; width: {%if publication.journal %} 75% {% else %} 100% {% endif %}">
+        {{ publication.description }}
+    </div>
+    {% if publication.journal %}
+    <div style="float: right; width: 20%">
+      {{ publication.journal }}
+    </div>
+    {% endif %}
+  </div>
+  {% if publication.blog_post %}
+    <div style="font-size: medium;">
+      <a href="{{ publication.blog_post }}">Read more in the blog post >> </a>
+    </div>
+  {% endif %}
+</div>
+{% endfor %}
+
+
 
 <div style="font-size: medium;">
 <h2>As the first author</h2>
