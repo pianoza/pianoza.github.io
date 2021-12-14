@@ -2,7 +2,6 @@
 layout: single
 title: Brain structure segmentation
 permalink: /blog/brain-structure-segmentation
-comments: true
 ---
 This post is going to be about this paper: [[1]](#1).
 
