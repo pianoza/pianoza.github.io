@@ -10,7 +10,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "url", "message"]
+  allowedFields: ["name", "email", "url", "message", "replying_to_uid"]
 
   # (*) REQUIRED WHEN USING NOTIFICATIONS
   #
@@ -25,7 +25,7 @@ comments:
   # request.
   branch: "master"
 
-  commitMessage: "New comment by {fields.name}"
+  commitMessage: "Comment from {fields.name} on {options.slug}"
 
   # (*) REQUIRED
   #
@@ -44,7 +44,7 @@ comments:
     date:
       type: "date"
       options:
-        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format: "timestamp-seconds" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
@@ -87,7 +87,7 @@ comments:
 
   # Names of required files. If any of these isn't in the request or is empty,
   # an error will be thrown.
-  requiredFields: ["name", "email", "message"]
+  requiredFields: ["name", "message"]
 
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
@@ -97,8 +97,6 @@ comments:
   # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
-    enabled: false
+    enabled: true
     siteKey: "6LeKwJ4dAAAAADMI3IqD95kjZnF7qpYY5kSZwFPa"
-    # # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
-    # # For more information, https://staticman.net/docs/encryption
     secret: "jLL7j3PqLHv7ewPjHXi9sPPx5UqLSNIDL+BUsdS9HEHlz8g3EblyFeQoK9nTw+Aqp3kk5iGL9CVyoX85req41NufsGbFkK0QF//aA/h0mpWMfpXytikW4Itn/Z/6/6GXmmg7ytZy0uQj8m7t0Icl2DjzBSHQpkNMl/SStY6fT1FnFQGR34R7UC7ZdMUM7P/R3+UJ6cG6/GH6aPLX+KzU6UwMXQlH9s+0mOuH9fOB68zfL6w+MMb9KV3I7D7p+5wuiMspM7y5w1IQSXmTbOca/ApxOp6cnd6z6fHdnkH6LwORxH2GZd8FhLkI/RxbNOcqgMCQygqmPKS+02yoUzIR6Dmv/YFbxN2jBBXC7GOJAJoXXFU4YvoRcSm+E5eIMAoYKSRUUKq5NOKNW66NNLk94l6o/g7YuaBuUi0G8CypaqaxbIaB0Z4kWAawVfszfxLVkmCJF0kkxuWPxMk0tJgNHtlK6uT2mDg3Nb8ve9drV5+VNo2R16ObIWkvk2yCKykNvRZp6MEpTlmkAadQhac1emPdYagR6n//3HeLAU5kAOApN7oVi4EW9RwHchRXyzzSsfCWbpCXZxvGqS24afuj4pnCnVp7SBWLUX8RDSXAe7rR3fU1ifewlR5X0AAlCAvRIJV5zltzMElMPzIyKmjQUZICg+V6k87I+pfTySDE7xs="
