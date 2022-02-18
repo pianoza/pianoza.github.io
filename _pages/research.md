@@ -2,16 +2,22 @@
 title: "Research"
 permalink: /research/
 ---
+<!-- ### Broad
+Computer Vision, Medical Imaging, Artificial Intelligence
 
-## Research interests
+### Specific -->
 
-#### Strolling down memory lane
-From my early carreer I was fascinated by the general field of Computer Vision. Seeing how modern algorithms were being used in many different ways from face recognition to autonomous driving inspired me to follow this path. On my early steps on this endless road of research in Computer Vision, I discovered and was thrilled to learn how it was possible to extract so much from mere photographs with the power of maths.
+![Research Interests](/assets/images/research_interests.png)
 
-#### Catching up the queue
-Medical Image Analysis was one of the areas of Computer Vision that cought my attention the most.
+<!-- ###### Methods:
+Deep Learning, Machine Learning, Uncertainty Estimation, Bayesin Neural Networks, Image Processing
 
-#### Gaze into the future
+###### Tasks:
+Segmentation, Classification, Detection, Regression
+
+###### Topics:
+NeuroImaging: Multiple Sclerosis, Alzheimers
+Cancer Imaging: Breast, Brain -->
 
 
 ## Ongoing projects
