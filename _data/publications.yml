@@ -29,9 +29,33 @@ book_chapters:
     description: Contributed to a chapter titled "Deep Learning for Medical Imaging". The chapter discusses the general deep learning strategies that have been considered in medical imaging; widespread preprocessing, processing, and postprocessing schemes; their targets and applications; and discuss key challenges to address in the future for easing their applicability in clinical practice.
     blog_post: false
     url: https://books.google.co.uk/books/about/Deep_Learning_in_Biology_and_Medicine.html?id=C76KzgEACAAJ&source=kp_book_description&redir_esc=y
-    journal: <img border="0" width=100 src="/assets/images/book_no_cover_thumb.gif" alt="Generic Book Cover" /> 
+    journal: <img border="0" width=100 src="https://books.google.co.uk/books/content?id=C76KzgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73LsyUQRImTGsiBGV5_twYt3dto0pU0IzvgHDZgzMvZrJscKOztkgTz3MZhdTSG4pubzLbj0PCszW2UKc7ZaxAHFdAnaOjMNqR2a3BffiFEW12Xac1Icvh1m0610YKWI56SzF85" alt="Book cover" /> 
  
 co_author:
+  - title: "Domain generalization in deep learning based mass detection in mammography: A large-scale multi-center study"
+    description: We explored the domain generalization of deep learning methods for mass detection in digital mammography and analyze in-depth the sources of domain shift in a large-scale multi-center setting.
+    blog_post: false
+    url: https://www.sciencedirect.com/science/article/pii/S0933365722001415
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=24140" alt="AIIM-rep" />
+
+  - title: "Sharing generative models instead of private data: a simulation study on mammography patch classification"
+    description: "As sharing data between centres is restricted due to patient privacy concerns, we propose a potential solution: sharing trained generative models between centres as substitute for real patient data."
+    blog_post: false
+    url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12286/122860Q/Sharing-generative-models-instead-of-private-data--a-simulation/10.1117/12.2625781.short
+    journal: <img border="0" width=100 src="https://www.ab-ct.com/wp-content/uploads/2022/04/IWBI-BreastImagingLeuven-News-700x525.jpg" alt="IWBI" />
+
+  - title: "Center Dropout: A Simple Method for Speed and Fairness in Federated Learning"
+    description: Our work proposes Center Dropout, a simple modification to the vanilla algorithm that does not train on the entire consortium on every round, but selects a random assortment of the total collaborators and proportionally increases the amount of local learning.
+    blog_post: false
+    url: https://link.springer.com/chapter/10.1007/978-3-031-09002-8_42 
+    journal: <img border="0" width=100 src="https://res.cloudinary.com/healthmanagement-org/image/upload/f_auto,fl_lossy/v1603468804/cw/00117626_cw_image.png" alt="MICCAI 2021" />  
+
+  - title: "Federated learning for multi-center imaging diagnostics: a study in cardiovascular disease"
+    description: The first study on the applicatio of federated learning in cardiovascular disease classification. Experiments with different model aggregation and validation techniques were performed.
+    blog_post: false
+    url: https://www.nature.com/articles/s41598-022-07186-4
+    journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=21100200805" alt="sci-rep" />  
+
   - title: "Data preparation for artificial intelligence in medical imaging: A comprehensive guide to open-access platforms and tools"
     description: A comprehensive guide for data preparation process for the beginners in AI in Medical Imaging. Here we provided a list of tools and platforms for data annotation, anonymisation, and curation. Also a list of publicly available datasets.
     blog_post: false
@@ -63,23 +87,36 @@ co_author:
     journal: <img border="0" width=100 src="https://www.scimagojr.com/journal_img.php?id=24140" alt="SCImago Journal &amp; Country Rank" />
 
 pre_prints:
+  - title: "FUTURE-AI: Guiding Principles and Consensus Recommendations for Trustworthy Artificial Intelligence in Medical Imaging"
+    description: This paper introduces a careful selection of guiding principles drawn from the accumulated experiences, consensus, and best practices from five large European projects on AI in Health Imaging. These guiding principles are named FUTURE-AI and its building blocks consist of (i) Fairness, (ii) Universality, (iii) Traceability, (iv) Usability, (v) Robustness and (vi) Explainability.
+    blog_post: false
+    url: https://arxiv.org/abs/2109.09658 
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" /> A
+
+  - title: "High-resolution synthesis of high-density breast mammograms: Application to improved fairness in deep learning based mass detection"
+    description: This study aims to improve the mass detection performance in high-density breasts using synthetic high-density full-field digital mammograms (FFDM) as data augmentation during breast mass detection model training.
+    blog_post: false
+    url: https://arxiv.org/abs/2209.09809 
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" /> 
+
+  - title: "medigan: A Python Library of Pretrained Generative Models for Enriched Data Access in Medical Imaging"
+    description:  We proposed medigan, a one-stop shop for pretrained generative models implemented as an open-source framework-agnostic Python library. medigan allows researchers and developers to create, increase, and domain-adapt their training data in just a few lines of code.
+    blog_post: false
+    url: https://arxiv.org/abs/2209.14472
+    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" /> 
+
   - title: "A review of Generative Adversarial Networks in cancer imaging: new applications, new solutions"
     description: Total of 163 papers that apply adversarial training techniques were analysed in the context of cancer imaging. Methodologies, advantages, and limitations were systematically discussed. Possible perspectives for GAN solutions in cancer imaging were hinted.
     blog_post: false
     url: https://arxiv.org/abs/2107.09543
     journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" /> 
 
-  - title: "Federated learning for multi-center imaging diagnostics: a study in cardiovascular disease"
-    description: The first study on the applicatio of federated learning in cardiovascular disease classification. Experiments with different model aggregation and validation techniques were performed.
-    blog_post: false
-    url: https://arxiv.org/abs/2107.03901
-    journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />  
-
   - title: "A hybrid SLAM and object recognition system for Pepper robot"
     description: First application of Simultaneous Localisation and Mapping (SLAM) with Pepper humanoid robot. Functionalities such as map building, map saving and reusing, recognising objects and locating them on the map were implemented and tested in real-world. (Equal contribution)
     blog_post: false
     url: https://arxiv.org/abs/1903.00675
     journal: <img border="0" width=100 src="/assets/images/arxiv-logo-1.jpg" alt="Arxiv.org" />   
+
   - title: Survival prediction using ensemble tumor segmentation and transfer learning
     description: Participation in the BraTS challenge for tumour segmentation and survival prediction. A cascaded pipeline was presented to segment the tumor and its subregions, which subsequently were used for survival prediction along with other clinical features.
     blog_post: false
