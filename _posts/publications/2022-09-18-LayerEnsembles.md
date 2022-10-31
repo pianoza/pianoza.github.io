@@ -5,7 +5,8 @@ category: blog
 tags: [publications, segmentation, deep learning, uncertainty estimation]
 permalink: /blog/layer-ensembles
 ---
-Check the conference paper [here](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_49).
+
+**Layer Ensembles** - is a method for uncertainty estimation in deep learning using a single network and a single pass (see [this paper](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_49)).
 
 ### Table of contents
 - [Description](#description)
@@ -22,8 +23,6 @@ Check the conference paper [here](https://link.springer.com/chapter/10.1007/978-
 
 ## Description
 ### Method
-
-**Layer Ensembles** - is a method for uncertainty estimation in deep learning using a single network and a single pass (see [this paper](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_49)).
 
 The main idea of Layer Ensembles is to attach an output head to intermediate layers of a network at different depths like in the following example:
 
